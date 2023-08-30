@@ -1,0 +1,50 @@
+
+
+
+.span{
+    color: orange;
+}
+
+.image{
+    background-color: rgb(63, 63, 63)
+}
+
+.nav2{
+    box-shadow: 0 4px 8px 0 rgba(139, 137, 137, 0.2), 0 6px 20px 0 rgba(187, 185, 185, 0.19);
+}
+.nav-link{
+    transition: all 0.2s;
+    position: relative;
+    }
+    
+    .nav-link:hover::after{
+        
+        content: "";
+        height: 2px;
+        width: 100%;
+        background-color: orange;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+.row1{
+    margin-top: 200px;
+}
+
+.img-fluid{
+    height: 100px;
+}
+
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(139, 137, 137, 0.2), 0 6px 20px 0 rgba(187, 185, 185, 0.19);
+}
+
+.ico{
+    color: orange;
+}

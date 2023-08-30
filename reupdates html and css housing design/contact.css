@@ -1,0 +1,68 @@
+
+   
+    .masthead{
+        background-size: cover;
+        min-height: 50vh;
+        position: relative;
+        color: orange;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    }
+
+.txt{
+    font-size: 3rem;
+}
+
+.color-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,  .2);
+}
+@media (max-width: 768px) {
+    .masthead{
+        min-height: 30vh;
+        text-align: center;
+    }
+    h1{
+        font-size: calc(1.52rem + 3.3vw)
+    }
+}
+
+
+.nav-link{
+    transition: all 0.2s;
+    position: relative;
+    }
+    
+    .nav-link:hover::after{
+        
+        content: "";
+        height: 2px;
+        width: 100%;
+        background-color: orange;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .span{
+        color: orange;
+    }
+
+    .tm-contact-link{
+        text-decoration: none;
+        color: orange;
+        font-size: 20px;
+    }
+    
+    .ww{
+        color: orange;
+    }
+
+    .tm-contact-social{
+        color: aqua;
+    }
+    body{
+        color: white;
+        text-decoration: c
+    }
